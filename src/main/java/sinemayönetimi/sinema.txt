@@ -1,0 +1,58 @@
+Bir sinema salonu için bilet rezervasyon sistemi oluşturun. Sisteminiz aşağıdaki sınıflara sahip olmalıdır:
+
+1-Film: Bu sınıf bir filmi temsil edecektir. Başlık, tür, süre gibi niteliklere sahip olmalıdır.
+ve ilgili diğer bilgiler.
+
+2-Gösteri: Bu sınıf, bir film için belirli bir gösterim zamanını temsil edecektir. Film gibi özelliklere sahip olmalıdır.
+gösteri zamanı, uygun Koltuklar ve diğer ilgili bilgiler.
+
+3-Bilet: Bu sınıf bir bileti temsil edecektir. Gösteri, koltukNumarası gibi niteliklere sahip olmalıdır.
+ve ilgili diğer bilgiler.
+
+4-Tiyatro: Bu sınıf film gösterimlerini ve bilet rezervasyonlarını yönetecektir. için metotları olmalıdır.
+film ekleme, film şovları ekleme, bilet ayırma ve rapor oluşturma.
+
+5-Rezervasyon: Bu sınıf bir bilet rezervasyonunu temsil edecektir. MüşteriAdı gibi özniteliklere sahip olmalıdır,
+show, numberOfTickets ve diğer ilgili bilgiler.
+
+Bu proje ile film nesneleri oluşturabilir, filmler için gösteriler ekleyebilir, müşterilerin belirli bir etkinlik için bilet ayırmasına olanak tanıyabilirsiniz.
+gösterir ve bir gösteri için mevcut koltuklar, toplam bilet satışları veya müşteri rezervasyon ayrıntıları gibi raporlar oluşturur.
+
+Koltuk seçimi, bilet fiyatı hesaplama gibi özellikleri uygulayarak projeyi geliştirebilirsiniz.
+rezervasyon iptali ve ödeme sistemi ile entegrasyon.
+
+Ek olarak, şovları ve rezervasyonları verimli bir şekilde yönetmek için diziler veya listeler gibi veri yapılarının kullanımını keşfedebilirsiniz.
+
+Kalıtım, kapsülleme, polimorfizm ve soyutlama kavramlarını uygun şekilde uygulamayı unutmayın.
+iyi tasarlanmış ve modüler bir kod tabanı sağlayın.
+
+
+
+
+Create a ticket reservation system for a movie theater. Your system should have the following classes:
+
+1-Movie: This class will represent a movie. It should have attributes such as title, genre, duration,
+and any other relevant information.
+
+2-Show: This class will represent a specific showtime for a movie. It should have attributes such as movie,
+showtime, availableSeats, and any other relevant information.
+
+3-Ticket: This class will represent a ticket. It should have attributes such as show, seatNumber,
+and any other relevant information.
+
+4-Theater: This class will manage the movie shows and ticket reservations. It should have methods for
+adding movies, adding shows for movies, reserving tickets, and generating reports.
+
+5-Reservation: This class will represent a ticket reservation. It should have attributes such as customerName,
+show, numberOfTickets, and any other relevant information.
+
+With this project, you can create movie objects, add shows for movies, allow customers to reserve tickets for specific
+shows, and generate reports such as available seats for a show, total ticket sales, or customer reservation details.
+
+You can enhance the project by implementing features such as seat selection, ticket price calculation,
+cancellation of reservations, and integration with a payment system.
+
+Additionally, you can explore the use of data structures like arrays or lists to manage shows and reservations efficiently.
+
+Remember to apply the concepts of inheritance, encapsulation, polymorphism, and abstraction appropriately to
+ensure a well-designed and modular codebase.
